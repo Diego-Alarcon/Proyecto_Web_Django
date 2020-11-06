@@ -13,6 +13,8 @@ class PostDetailView(DetailView):
     model = Post
 
 
+
+
 class PostCreateView(CreateView):
     form_class = PostForm
     model = Post
@@ -43,3 +45,5 @@ class PostUpdateView(UpdateView):
 class PostDeleteView(DeleteView):
     model = Post
     success_url = '/'
+
+
